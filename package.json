@@ -1,0 +1,34 @@
+{
+  "name": "bundler",
+  "version": "0.1.0",
+  "description": "Bundler",
+  "author": "Desecure",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-data": "^1.2.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.1.0",
+    "gulp-watch": "^4.3.11",
+    "nunjucks": "^3.0.0",
+    "portscanner": "^2.1.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.1",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "slick-carousel": "^1.8.1"
+  }
+}

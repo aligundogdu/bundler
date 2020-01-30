@@ -1,0 +1,10 @@
+{% extends "./layouts/default.nunjucks" %}
+
+{% block title %}
+    Ana sayfa
+{% endblock %}
+
+{% block content %}
+    <i class="fa fa-ticket"></i>
+    <h1 class="animated infinite bounce delay-2s">Kıps</h1>
+{% endblock %}
