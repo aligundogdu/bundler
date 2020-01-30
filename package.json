@@ -18,7 +18,8 @@
     "gulp-uglify": "^2.1.0",
     "gulp-watch": "^4.3.11",
     "nunjucks": "^3.0.0",
-    "portscanner": "^2.1.1"
+    "portscanner": "^2.1.1",
+    "lodash.template": ">=4.5.0"
   },
   "dependencies": {
     "animate.css": "^3.7.2",
