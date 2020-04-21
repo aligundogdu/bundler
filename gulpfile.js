@@ -23,11 +23,7 @@ gulp.task('styles', function () {
     return gulp.src(
         [
             'src/assets/sass/**/*.scss',
-            'node_modules/bootstrap/scss/bootstrap.scss',
-            'node_modules/animate.css/animate.css',
-            'node_modules/font-awesome/css/font-awesome.css',
-            'node_modules/slick-carousel/slick/slick.scss'
-        ]
+                 ]
     )
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(concat('app.css'))
@@ -60,8 +56,6 @@ gulp.task('scripts', function () {
 gulp.task('libJS', function () {
     return gulp.src([
         'node_modules/jquery/dist/jquery.min.js',
-        'node_modules/popper.js/dist/umd/popper.min.js',
-        'node_modules/bootstrap/dist/js/bootstrap.min.js',
         'node_modules/slick-carousel/slick/slick.min.js',
         'node_modules/isotope-layout/dist/isotope.pkgd.min.js'
     ])
